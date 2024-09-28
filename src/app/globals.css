@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+* {
+  margin: 0 !important;
+  font-family: var(--my-font);
+}
+
+.banner_panel, .retail {
+  backdrop-filter: blur(7px);
+}
+.navbar {
+  left: 0;
+  right: 0;
+  position: fixed;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  backdrop-filter: blur(7px);
+  box-shadow: 00px 0px 20px rgba(0, 0, 0, 0.104);
+}
+.summary_text {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  top: 0 !important;
+  right: 0 !important;
+  left: 0 !important;
+  bottom: 0 !important;
+}
+
+.building {
+  margin-top: -25% !important;
+  z-index: 10000;
+}
+
+.timeline_container {
+  margin-left: 5% !important;
+}
+
+.max_width_container {
+  max-width: 1550px;
+}
+
+input {
+  height: 50px;
+  border: 1px solid #e7e9ed;
+  border-radius: 8px;
+  color: black;
+  padding-left: 20px;
+}
